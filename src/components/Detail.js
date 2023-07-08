@@ -26,7 +26,7 @@ const Detail = ({exerciseDetail}) => {
     <Stack gap='60px' sx={{flexDirection:{lg:'row'},p:'20px',alignItems:'center'}}>
       <img  className='detail-image' src={gifUrl} alt={name} loading='lazy' />
       <Stack sx={{gap:{lg:'35px', xs: '20px'}}}>
-        <Typography variant='h3'>
+        <Typography textTransform='capitalize' variant='h3'>
           {name}
         </Typography>
         {extraDetails.map((detail) => (
