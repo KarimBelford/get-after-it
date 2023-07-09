@@ -56,7 +56,7 @@ const SearchExercises = ({setExercises,bodyPart,setBodyPart}) => {
         </Button>
       </Box>
       <Box sx={{position:'relative',width:'100%',p:'20px'}}>
-        <ExerciseNavbar data ={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart}/>
+        <ExerciseNavbar data ={bodyParts} bodyPart={bodyPart} setBodyPart={setBodyPart} isBodypart/>
 
       </Box>
     </Stack>
