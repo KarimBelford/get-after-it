@@ -9,10 +9,9 @@ import ExerciseList from '../components/ExerciseList'
 const Home = () => {
   const [bodyPart, setBodyPart] = useState('all')
   const [exercises, setExercises] = useState([])
-  console.log(bodyPart)
+
   return (
-    <Box>
-      
+    <Box>      
       <HeroBanner />
       <SearchExercises setExercises={setExercises} bodyPart={bodyPart} setBodyPart={setBodyPart} />
       <ExerciseList setExercises={setExercises} bodyPart={bodyPart} exercises={exercises}/>
