@@ -24,7 +24,7 @@ const Navbar = () => {
         fontSize="24px"
         alignItems="flex-end"
       >
-        <Link to = '/' style={{
+        <Link to = '/home' style={{
           textDecoration: 'none',
           color: 'black',
           fontSize: '24px',
